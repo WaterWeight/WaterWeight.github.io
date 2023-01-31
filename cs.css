@@ -24,6 +24,6 @@ footer{
     padding-top: 10%;
     padding-left: 10%;
 }
-html{
+header,body,footer{
 font-family: Lucida Sans Unicode;
 }
