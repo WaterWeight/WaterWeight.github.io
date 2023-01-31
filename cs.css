@@ -1,0 +1,26 @@
+form{
+padding-left: 10%;
+width: 10%;
+}
+
+li{
+    padding-top: 10px;
+}
+
+header{
+padding-left: 8%;
+}
+.dt2{
+    float: right;
+    padding-bottom: 50%;
+    padding-right: 5%;
+    height: 10%;
+    width: 20%;
+}
+footer{
+    height: 100px;
+    width: 160px;
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 10%;
+}

@@ -1,1 +1,35 @@
-
+<html>
+    <head>
+        <link rel="stylesheet" href="cs.css">
+    </head>
+    <body>
+        <header><h1>Formularz zażaleń</h1></header>
+        <main>
+            <article class="dt2">
+                <h3>Motyw kolorystyczny</h3>
+                <input onclick="funkcja2()" type="button" value="Ciemny"> <input onclick="funkcja3()" type="button" value="Jasny"> 
+            </article>
+        <form>
+            <label>Imie</label> <br>
+            <input onkeydown="funkcja1(this)" id="z1" onkeyup="funkcja1(this)" placeholder="Adam" type="text" id="naz"> <br>
+            <label>Nazwisko</label> <br>
+            <input onkeydown="funkcja1(this)" id="z2" onkeyup="funkcja1(this)" placeholder="Mickiewicz" type="text" id="naz"> <br>
+            <label>Dział</label> <br>
+            <select> <br>
+                <option>IT</option>
+                <option>Kadr</option>
+                <option>Szkoleniowy</option>
+                <option>Zarząd</option>
+                <option>Księgowości</option>
+            </select> <br>
+            <label>Zażalenie</label> <br>
+            <textarea id="z3"  placeholder="Kawa była zimna."></textarea> <br> <br>
+            <input onclick="funkcja5()" type="button" value="Prześlij"> <input type="reset" value="Zresetuj" onclick="funkcja4()">
+        </form>
+    </main>
+    <footer>
+        <a href="faq.html">FAQ</a> <a> Copyright &copy; 2022</a>
+        <script src="js.js"></script>
+    </footer>
+    </body>
+</html>
